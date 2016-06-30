@@ -23,6 +23,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 - (IBAction)btnNumber1:(UIButton *)sender {
     display.text=[NSString stringWithFormat:@"%@1",display.text];
    }
@@ -97,6 +100,9 @@
 }
 }
 
-- (IBAction)txtInput:(UITextField *)sender {
+- (IBAction)btnClear:(UIButton *)sender {
+    display.text = @"";
 }
+
+
 @end
